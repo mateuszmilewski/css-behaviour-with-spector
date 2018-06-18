@@ -1,0 +1,173 @@
+html body {
+    margin: 5%;
+    background-color: white;
+}
+
+
+h2 {
+    background-color: gray;
+    padding: 20px;
+}
+
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+#s1 {
+    text-align: center;
+}
+
+#s1 > img {
+    filter: grayscale(80%);
+    filter: brightness(1.15);
+}
+
+
+
+#s2 >img {
+    filter: sepia(100%);
+    
+}
+
+#s3 > img {
+    filter: contrast(120%);
+    display: block;
+    margin: 0 auto;
+}
+
+
+#s4 {
+    height: 500px;
+}
+
+
+#s4 > img {
+    filter: opacity(50%);
+    height: auto;
+    width: auto;
+}
+
+#s4 div {
+    width: 60%;
+    height: 40%;
+    background-color: black;
+    color: aliceblue;
+    margin: 10px auto 0 200px;
+}
+
+#s4 div div {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+
+#s5 {
+    height: 800px;
+    color: aliceblue;
+    background-color: grey;
+}
+
+#s5 img {
+    width: 200px;
+    height: auto;
+    filter: opacity(20%);
+}
+
+#s5 h2 {
+    background-color: darkgray;
+}
+
+#s5 div {
+    text-align: center;
+    line-height: 50vh;
+    font-size: 60px;
+}
+
+
+#s6 {
+    height: 400px;
+    width: auto;
+    position: relative;
+}
+
+
+#s6 > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    margin-left: -150px;
+    margin-top: -20px;
+}
+
+
+
+#s7 {
+    position: relative;
+    height: 800px;
+}
+
+
+#s7 img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: calc(50%);
+    left: calc(50%);
+}
+
+
+#s8 {
+    position: relative;
+    height: 700px;
+}
+
+#s8 > img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+
+
+#s9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#s9 > img {
+    width: 200px;
+    height: auto;
+}
+
+#s10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: flex;
+    height: 600px;
+}
+
+#s10 > img {
+    width: 200px;
+    height: auto;
+    align-self: center;
+    margin: 0 auto;
+}
